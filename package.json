@@ -1,0 +1,19 @@
+{
+  "name": "meridian",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
+    "dev:client": "cd apps/client && npm run dev",
+    "dev:server": "cd apps/server && npm run start:dev",
+    "build": "npm run build:client && npm run build:server",
+    "build:client": "cd apps/client && npm run build",
+    "build:server": "cd apps/server && npm run build",
+    "lint": "cd apps/client && npm run lint",
+    "type-check": "cd apps/client && vue-tsc --noEmit",
+    "test": "cd apps/server && npm run test"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}

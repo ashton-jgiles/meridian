@@ -1,0 +1,37 @@
+{
+    "recommendations": [
+        // Vue / Frontend
+        "vue.volar",
+        "bradlc.vscode-tailwindcss",
+        "ant-design-vue.vscode-ant-design-vue-helper",
+        "vunguyentuan.vscode-css-variables",
+
+        // NestJS / Backend
+        "abhijoybasak.nestjs-files",
+
+        // TypeScript / JavaScript
+        "ms-vscode.vscode-typescript-next",
+        "yoavbls.pretty-ts-errors",
+        "xabikos.javascriptsnippets",
+
+        // Code Quality
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "usernamehw.errorlens",
+
+        // Git
+        "eamodio.gitlens",
+        "vivaxy.vscode-conventional-commits",
+
+        // API / Database
+        "humao.rest-client",
+        "cweijan.vscode-database-client2",
+
+        // Environment / Docker
+        "mikestead.dotenv",
+        "ms-azuretools.vscode-docker",
+
+        // Utilities
+        "christian-kohler.path-intellisense"
+    ]
+}

@@ -1,0 +1,32 @@
+/* apps/client/src/assets/main.css */
+@import 'tailwindcss';
+
+/* Meridian theme variables */
+[data-phase="dawn"] {
+  --color-bg: #1a1035;
+  --color-surface: #3d2459;
+  --color-accent: #c05a3a;
+  --color-primary: #f4c07a;
+  --color-text: #fde4c8;
+}
+[data-phase="midday"] {
+  --color-bg: #0d3d5c;
+  --color-surface: #1a5070;
+  --color-accent: #3a9fd4;
+  --color-primary: #fff8c0;
+  --color-text: #e8f6ff;
+}
+[data-phase="golden"] {
+  --color-bg: #1a1005;
+  --color-surface: #2e1e08;
+  --color-accent: #d4782a;
+  --color-primary: #f5c060;
+  --color-text: #fef0cc;
+}
+[data-phase="night"] {
+  --color-bg: #070a20;
+  --color-surface: #10153a;
+  --color-accent: #4455bb;
+  --color-primary: #9898e8;
+  --color-text: #c8ccff;
+}
